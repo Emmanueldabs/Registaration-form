@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="shortcut icon" href="https://www.planetware.com/wpimages/2020/02/france-in-pictures-beautiful-places-to-photograph-eiffel-tower.jpg" type="image/x-icon">
+        <script src="main.js"></script>
+        <link rel="stylesheet" href="style.css">
+        <title>
+            Registration form
+        </title>
+    </head>
+    <body>
+        <center>
+            <h1>User Registration Form</h1>
+        <form action="" method="GET" name="form1" onsubmit="return(validate());" >
+            <table cellspacing ="2" cellpadding="2" align="center">
+                <tr>
+                    <td align="right">Full name:</td>
+                    <td><input type="text" name="fname" id="" size="40" autofocus></td>
+                    <td id="fnv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">E-mail:</td>
+                    <td><input type="text" name="Email" size="40"></td>
+                    <td id="ev" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">Mobile No:</td>
+                    <td><input type="Mobile" size="40" maxlength="10" name="Number"></td>
+                    <td id="mv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">Date of birth:</td>
+                    <td><input type="date" name="DOB" id="" size="40"></td>
+                    <td id="dobv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">User Name:</td>
+                    <td><input type="text" name="Uname" size="40"></td>
+                    <td id="usv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">Password:</td>
+                    <td><input type="text" name="Password" size="40"></td>
+                    <td id="pv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">Comfirm Password:</td>
+                    <td><input type="text" name="CPassword" size="40"></td>
+                    <td id="cpv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">Gender:</td>
+                    <td>
+                        Male
+                        <input type="radio" name="radio1" value="Male">&nbsp
+                        Female
+                        <input type="radio" name="radio1" value="Female">&nbsp <br>
+                    </td>
+                    <td id="rgen" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">Pincode:</td>
+                    <td><input type="text" name="pincode" maxlength="6" size="40"></td>
+                    <td id="pinv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right">Country:</td>
+                    <td>
+                        <select name="Country" id="">
+                            <option value="-1">Japan</option>
+                            <option value="1">America</option>
+                            <option value="2">India</option>
+                            <option value="3">Russia</option>
+                            <option value="4">England</option>
+                            <option value="5">China</option>
+                        </select>
+                    </td>
+                    <td id="cv" class="vld"></td>
+                </tr>
+                <tr>
+                    <td align="right"></td>
+                    <td>
+                        <input type="submit" style="font-size:50px" value="submit">
+                        <input type="reset" style="font-size:50px" value="reset">
+                    </td>
+                    <td></td>
+                </tr>
+            </table>
+        </form>
+        <center>
+    </body>
+</html>
